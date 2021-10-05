@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul#main-menu {
+  padding: 0 40px;
+  list-style: none;
+  background-color: #4b6bd3;
+  li.menu-link {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 3px;
+
+    &.active {
+      background-color: #4b5052;
+      color: white;
+    }
+  }
+}
+
+.tab-content {
+  display: none;
+  padding: 40px;
+  &.active {
+    display: block;
+  }
+
+  h2 {
+    padding-bottom: 15px;
+  }
+}

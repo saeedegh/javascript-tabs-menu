@@ -1,0 +1,14 @@
+{
+  "name": "tabs-menu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass ./main.scss ./main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
